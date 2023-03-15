@@ -7,8 +7,6 @@ plugins {
 }
 
 allprojects {
-    group "ru.otus"
-
     repositories {
         mavenLocal()
         mavenCentral()
@@ -76,9 +74,4 @@ task managedVersions {
             println it
         }
     }
-}
-
-//gradle -q hello
-task hello {
-    println 'Hello world!'
 }
